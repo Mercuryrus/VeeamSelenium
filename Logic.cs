@@ -19,7 +19,7 @@ namespace VeeamSelenium
         }
         static public int GetCountFindElementsCssSelector(IWebDriver driver)
         {
-            return driver.FindElements(By.XPath("//*[@class='card card-no-hover card-sm']")).Count();
+            return driver.FindElements(By.XPath("//*[@class='card card-no-hover card-sm']")).Count;
         }
     }
 }
